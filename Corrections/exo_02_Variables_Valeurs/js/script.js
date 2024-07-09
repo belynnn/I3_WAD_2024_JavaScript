@@ -1,0 +1,9 @@
+let maVariable = 23; // Respecter le camelCase
+let troisFoisNeuf = 27; // ne pas commencer par un chiffre
+let troisFois9 = 27; // Respecter le camelCase
+let leTotal = 100; // Pas d'espace
+let mail = "jean.dupont@gmail.com"; // pas de caractères spéciaux sauf le "_" et le "$"
+let somme = 30+20+10; // donner du contexte à la variable
+let phrase = "Bonjour tout le monde !"; // Mettre la valeur entre ""
+let age = "26"; 
+let resultat = 3 + 3 + Number("3"); // /!\ Concatenation, convertion explicite nécéssaire

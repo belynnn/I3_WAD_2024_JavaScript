@@ -1,0 +1,13 @@
+td {
+    border : 1px solid black;
+    width: 20px;
+    height: 20px;
+
+}
+
+.Jaune{
+    background-color: yellow;
+}
+.Bleu{
+    background-color: blue;
+}
