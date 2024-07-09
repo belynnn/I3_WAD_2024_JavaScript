@@ -1,0 +1,23 @@
+.red {
+    color: red;
+}
+
+/* Les enfants (directs ou indirects) de type <li> de la balise d'id 'list_pate'*/
+#list_pate li {
+    /* props */
+}
+
+/* Les enfants directs de type <li>  de la balise d'id 'list_pate'*/
+#list_pate > li {
+    /* props */
+}
+
+/* Les balise <li> qui ont la classe 'red' */
+li.red {
+    /* props */
+}
+
+/* Les balises <li> ou les éléments avec la classe 'red' */
+li, .red {
+    /* props */
+}

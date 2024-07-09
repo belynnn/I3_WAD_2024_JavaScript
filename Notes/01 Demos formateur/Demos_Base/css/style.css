@@ -1,0 +1,15 @@
+.para{
+    font-size: 3em;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: aqua;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.textColor{
+    color: darkgoldenrod;
+}

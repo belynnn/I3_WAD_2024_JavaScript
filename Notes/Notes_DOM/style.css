@@ -1,0 +1,15 @@
+.uppercase{
+    text-transform: uppercase;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+.green{
+    color: rgb(70, 98, 14);
+}
+
+.highlight{
+    background-color: chartreuse;
+}
