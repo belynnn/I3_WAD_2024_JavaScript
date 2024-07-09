@@ -1,0 +1,13 @@
+td{
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.jaune{
+    background-color: yellow;
+}
+
+.bleu{
+    background-color: blue;
+}

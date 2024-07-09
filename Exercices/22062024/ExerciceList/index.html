@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="fr-be">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Exercice 1 - String</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="./assets/js/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>JavaScript - Exercices</h1>
+
+        <ul>
+            <li>Appuyez sur la touche [F5] si vous souhaitez réutiliser un bouton désactivé.</li>
+        </ul>
+    </header>
+
+    <main>
+        <ol>
+            <div id="exo_01">
+                <h2>
+                    <li>
+                        <p>Stockez dans une variable, le résultat d'une saisie au clavier et affichez-la</p>
+                    </li>
+                </h2>
+    
+                <button type="submit" id="exo_01_submit">Lancer l'exercice</button>
+            </div>
+
+            <div id="exo_02">
+                <h2>
+                    <li>
+                        <p>À la place d'afficher simplement la variable, affichez son contenu précédé de la chaîne de caractères "Saisie clavier: "</p>
+                    </li>
+                </h2>
+    
+                <button type="submit" id="exo_02_submit">Lancer l'exercice</button>
+            </div>
+
+            <div id="exo_03">
+                <h2>
+                    <li>
+                        <p>Récupérez au clavier un nombre et stockez-le dans une variable</p>
+                        <p>Ensuite, affichez cette variable</p>
+                        <p>Rappelez-vous, la saisie clavier revient sous forme de chaîne de caractères</p>
+                        <li id="exo_04">Si le nombre qui se trouve dans la variable number est plus grand que 10, affichez la chaîne de caractères “Ce nombre est plus grand que 10”.</li>
+                        <li id="exo_05">À la suite de la condition, si celle-ci n'est pas remplie, affichez le message suivant: “Le nombre est plus petit ou égal à 10.”</li>
+                    </li>
+                </h2>
+
+                <div>
+                    <button type="submit" id="exo_03_submit">Lancer l'exercice -3-</button>
+                    <button type="submit" id="exo_04_submit">Lancer l'exercice -4-</button>
+                    <button type="submit" id="exo_05_submit">Lancer l'exercice -5-</button>
+                </div>
+            </div>
+
+            <div id="exo_06">
+                <h2>
+                    <li>
+                        <p>Récupérez un nombre au clavier et stockez-le dans une variable.</p>
+                        <p>Si le nombre récupéré est plus grand ou égale à 10 affichez “Bravo!”.</p>
+                        <p>Sinon, si il est plus grand que 8 affichez “Pas mal.”.</p>
+                        <p>Sinon, si le nombre est plus grand que 5 affichez “Mouais, bof”.</p>
+                        <p>Et sinon dans les autres cas affichez “Pas terrible”.</p>
+                    </li>
+                </h2>
+                
+                <div>
+                    <button type="submit" id="exo_06_submit">Lancer l'exercice</button>
+                </div>
+            </div>
+
+            <div id="exo_07">
+                <h2>
+                    <li>
+                        <p>Écrivez un script qui demande à l'utilisateur un nombre (entre 1 et 10).</p>
+                        <p>Tant qu'il ne rentre pas un chiffre entre 1 et 10, le programme demande à nouveau à l'utilisateur un nombre (entre 1 et 10).</p>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_07_submit">Lancer l'exercice</button>
+            </div>
+
+            <div id="exo_08">
+                <h2>
+                    <li>
+                        <p>Écrivez un script qui demande à l'utilisateur un mot de passe.</p>
+                        <p>Si le mot de passe entré n'est pas "Pyth0n" le programme demande à nouveau le mot de passe.</p>
+                        <p>Quand le mot de passe est bon, le programme affiche "Mot de passe valide."</p>
+                        <p>Après 3 tentatives infructueuses, le programme affiche "Mot de passe incorrect."</p>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_08_submit">Lancer l'exercice</button>
+            </div>
+
+            <div id="exo_09">
+                <h2>
+                    <li>
+                        <p>Écrivez un programme qui va générer trois nombres aléatoirement (entre 1 et 6).</p>
+                        <p>Ensuite le programme va afficher les trois nombres</p>
+                        <p>Si les trois nombres ne sont pas identiques, il recommence.</p>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_09_submit">Lancer l'exercice</button>
+            </div>
+
+            <div id="exo_10">
+                <h3>WIP</h3>
+                <h2>
+                    <li>
+                        <p>Demandez à l'utilisateur d'entrer des nombre jusqu'à ce qu'il donne la valeur 0.</p>
+                        <p>Ensuite, affichez le plus grand et le plus petit nombre que l'utilisateur a donné.</p>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_10_submit">Lancer l'exercice</button>
+            </div>
+
+            <div id="exo_11">
+                <h3>WIP</h3>
+                <h2>
+                    <li>
+                        <p>Générez deux nombres aléatoire (entre 0 et 100)</p>
+                        <p>Affichez ces deux nombres en demandant à l'utilisateur d'en donner la somme</p>
+                        <p>Continuez à lui demander tant que la réponse est mauvaise.</p>
+                        <p>À la fin du programme, affichez à l'utilisateur le nombre d'erreurs qu'il a commises.</p>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_11_submit">Lancer l'exercice</button>
+            </div>
+
+            <div id="exo_12">
+                <h3>WIP</h3>
+                <h2>
+                    <li>
+                        <p>Créez un programme qui va demander à l'utilisateur d'entrer des nombres.</p>
+                        <p>Le programme continuera à en demander tant que l'utilisateur n'aura pas donné deux nombres identiques d'affilée.</p>
+                        <p>En fin de programme, affichez la somme de tous les nombres entrés par l'utilisateur.</p>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_12_submit">Lancer l'exercice</button>
+            </div>
+
+
+            <div id="exo_13">
+                <h3>WIP</h3>
+                <h2>
+                    <li>
+                        <p>Mettre la valeur 10 dans une variable</p>
+                        <p>Utilisez une boucle while pour afficher les nombres de 10 à 1.</p>
+                        <p>Terminez en affichant "Décollage !"</p>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_13_submit">Lancer l'exercice</button>
+            </div>
+
+            <div id="exo_14">
+                <h3>WIP</h3>
+                <h2>
+                    <li>
+                        <p>Écrivez un script qui demande un mot à l'utilisateur.</p>
+                        <p>Tant que le mot n'est pas "end" le script redemandera un mot à l'utilisateur.</p>
+                        <p>À chaque fois que le mot commence par "t", affichez-le suivi de "!!!" (rappelez-vous que pour lire un seul caractère d'une chaîne de caractères, on doit lui donner son index (comme pour les listes)).</p>
+                        <p>À la fin du script, affichez le nombre de mots entrés par l'utilisateur.</p>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_14_submit">Lancer l'exercice</button>
+            </div>
+
+            <div id="exo_15">
+                <h3>WIP</h3>
+                <h2>
+                    <li>
+                        <p>Écrivez un script qui demande à l'utilisateur un nombre entier entre 1 et 100, redemandez tant que l'utilisateur ne donne pas un entier entre 1 et 100.</p>
+                        <p>Ensuite affichez la somme des chiffres de 1 à l'entier donné par l'utilisateur.</p>
+                        <p>Si l'utilisateur vous donne 10, la somme affichée sera 55 car 55 est la somme des entiers de 1 à 10.</p>
+                        <p></p>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_15_submit">Lancer l'exercice</button>
+            </div>
+
+            <div id="exo_16">
+                <h3>WIP</h3>
+                <h2>
+                    <li>
+                        <p>Créez un script qui demande à l'utilisateur un mot.</p>
+                        <p>Ensuite donner à l'utilisateur le nombre de voyelle de ce mot.</p>
+                        <p>Indice: vous pouvez établir la liste des voyelles facilement ["a", "e", "i", "o", "u", "y"] et nous avons vu un moyen de vérifier qu'un élément se trouve dans un groupe.</p>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_16_submit">Lancer l'exercice</button>
+            </div>
+
+            <div id="exo_17">
+                <h3>WIP</h3>
+                <h2>
+                    <li>
+                        <p>À l'aide de 2 boucles, créez un script qui énumère toutes les cartes d'un jeu de cartes à jouer. Une des boucles concerne les symboles (cœur, carreau, pique, trèfle) et une autre les valeurs (as, deux, trois, …, dame, roi).</p>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_17_submit">Lancer l'exercice</button>
+            </div>
+
+            <div id="exo_18">
+                <h3>WIP</h3>
+                <h2>
+                    <li>
+                        <p>Écrivez une fonction qui prend un mot en argument et qui renvoie le mot inversé.</p>
+                        <p>Dans le programme principal, demandez à l'utilisateur de saisir un mot au clavier et affichez le mot inverse.</p>
+                        <p>Exemple : Si le mot entré au clavier est "hologramme", le mot affiché sera "emmargoloh"</p>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_18_submit">Lancer l'exercice</button>
+            </div>
+
+            <div id="exo_19">
+                <h3>WIP</h3>
+                <h2>
+                    <li>
+                        <p>Écrivez une fonction qui affiche l'addition de tous les éléments d'un tableau (une liste de liste) passé en paramètre.</p>
+                        <p>Dans votre programme principal, vous pouvez tester votre fonction avec un tableau 3x3 rempli des 9 premiers entiers, la fonction devrait afficher 45.</p>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_19_submit">Lancer l'exercice</button>
+            </div>
+
+            <div id="exo_20">
+                <h3>WIP</h3>
+                <h2>
+                    <li>
+                        <p>Écrivez une fonction affiche la table de multiplication de 7 (les 10 premiers multiples de 7) de la manière suivante : 1x7=7, 2x7=14, ...</p>
+                        <li id="exo_21"><p>Modifiez votre fonction pour qu'au lieu d'afficher la table de 7, la fonction affiche la table d'un nombre entier passé en paramètre.</p></li>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_20_submit">Lancer l'exercice -20-</button>
+                <button type="submit" id="exo_21_submit">Lancer l'exercice -21-</button>
+            </div>
+
+            <div id="exo_22">
+                <h3>WIP</h3>
+                <h2>
+                    <li>
+                        <p>Écrivez une fonction qui renvoie au programme appelant une liste de n entiers allant de 1 à 6 (déterminés aléatoirement). n étant passé en paramètre.</p>
+                        <p>Par exemple, si 3 est passé en paramètre, la fonction renvoie une liste de 3 entiers entre 1 et 6.</p>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_22_submit">Lancer l'exercice</button>
+            </div>
+
+            <div id="exo_23">
+                <h3>WIP</h3>
+                <h2>
+                    <li>
+                        <p>Écrivez une fonction qui a pour arguments un mot et une lettre. Cette fonction doit retourner le nombre de fois que la lettre apparaît dans le mot.</p>
+                        <p>Par exemple si le mot est "cacao" et la lettre est "c", la fonction retourne 2.</p>
+                        <p>Dans le programme principal, écrivez du code qui teste la fonction.</p>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_23_submit">Lancer l'exercice</button>
+            </div>
+
+            <div id="exo_24">
+                <h3>WIP</h3>
+                <h2>
+                    <li>
+                        <p>Écrivez une fonction qui prend un mot en paramètre et qui retourne ce même mot, mais sans les voyelles ("a", "e", "i", "o", "u", "y").</p>
+                        <p>Exemple: Si je passe "telegramme" comme paramètre, la fonction retournera "tlgrmm"</p>
+                        <p>Attention: on ne gère pas les caractères spéciaux !</p>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_24_submit">Lancer l'exercice</button>
+            </div>
+
+            <div id="exo_25">
+                <h3>WIP</h3>
+                <h2>
+                    <li>
+                        <p>Écrivez une fonction qui écrit un mot de 5 lettres avec les lettres suivantes: "a", "i", "l", "n", "o","r", "s", "t".</p>
+                        <p>Le mot sera ensuite retourné par la fonction.</p>
+                        <p>Attention, les lettres ne peuvent être utilisées qu'une seule fois chacune dans le mot.</p>
+                        <p>Par exemple: "tsoni" est un mot valide mais pas "liara"</p>
+                        <li>
+                            <p>Modifiez la fonction précédente en lui ajoutant un argument qui représente le nombre de lettres du mot.</p>
+                            <p>Faites en sorte que le nombre de lettres du mot généré ne soit plus 5, mais le nombre passé en paramètre.</p>
+                        </li>
+                        <li>
+                            <p>Modifiez encore la fonction précédente en lui ajoutant un autre argument qui représentera cette fois une liste de lettres autorisées.</p>
+                            <p>Changez le code de la fonction pour que la liste passée en paramètre soit utilisée à la place de celle déclarée dans la fonction.</p>
+                        </li>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_25_submit">Lancer l'exercice -25-</button>
+                <button type="submit" id="exo_26_submit">Lancer l'exercice -26-</button>
+                <button type="submit" id="exo_27_submit">Lancer l'exercice -27-</button>
+            </div>
+
+            <div id="exo_28">
+                <h3>WIP</h3>
+                <h2>
+                    <li>
+                        <p>Écrivez une fonction qui prend une liste et un caractère comme arguments.</p>
+                        <p>La fonction va placer le caractère dans la dernière "case" (celle avec l'index le plus grand) de la liste qui est rempli par un ".".</p>
+                        <p>Après coup la fonction retournera la liste.</p>
+                        <p>Dans votre programme principal, utilisez la fonction pour remplir une liste remplie avec 6 ".".</p>
+                        <p>Faites donc en sorte d'exécuter la fonction tant que la liste n'est pas remplie.</p>
+                        <p>Après chaque exécution de la fonction, affichez la liste.</p>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_28_submit">Lancer l'exercice</button>
+            </div>
+
+            <div id="exo_29">
+                <h3>WIP</h3>
+                <h2>
+                    <li>
+                        <p>Écrivez une fonction qui ajoute la TVA à un prix donné en paramètre. La TVA sera toujours de 21%.</p>
+                        <p>Exemple: Si la fonction reçoit 2, elle renverra 2.42 car 2 + 2 * 0.21 = 2.42</p>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_29_submit">Lancer l'exercice</button>
+            </div>
+
+            <div id="exo_30">
+                <h3>WIP</h3>
+                <h2>
+                    <li>
+                        <p>Écrivez une autre fonction qui reçoit une liste de prix en paramètre et qui renvoie la somme des éléments de cette liste auxquels on ajoute la TVA.</p>
+                        <p>Pour calculer la TVA, utilisez la fonction précédemment créée.</p>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_30_submit">Lancer l'exercice</button>
+            </div>
+
+            <div id="exo_31">
+                <h3>WIP</h3>
+                <h2>
+                    <li>
+                        <p>Écrivez une fonction qui renvoie une carte au hasard.</p>
+                        <p>Cette fonction n'a pas d'argument et renvoie As, 2, 3, 4, 5, 6, 7, 8, 9, 10, Valet, Dame, Roi.</p>
+                        <p>En utilisant la fonction décrite ci-dessus, écrivez une fonction qui renvoie une liste de cartes. Le nombre de cartes sera déterminé par un argument de la fonction.</p>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_31_submit">Lancer l'exercice</button>
+            </div>
+
+            <div id="exo_32">
+                <h3>WIP</h3>
+                <h2>
+                    <li>
+                        <p>Ensuite, créez une fonction qui reçoit une liste de cartes en paramètre.</p>
+                        <p>Cette fonction renverra le mot “Poker” s' il y a 5 fois la même valeur dans la liste.</p>
+                        <p>Si il y a 4 fois la même valeur elle renverra “Carré”.</p>
+                        <p>Si il y a 3 fois la même valeur elle renverra “Brelan”.</p>
+                        <p>Enfin si il n'y a que 2 fois la même valeur elle renverra “Paire”.</p>
+                        <p>Dans les autres cas, elle renverra “Rien”.</p>
+                    </li>
+                </h2>
+
+                <button type="submit" id="exo_32_submit">Lancer l'exercice</button>
+            </div>
+        </ol>
+    </main>
+
+    <footer>
+        <p>Série d'exercices reprise du cours de Python, réalisée par Thomas Stassin et Bastien Gorrissen.</p>
+        <p>Réutilisée par Deborah Clerckx.</p>
+    </footer>
+</body>
+</html>

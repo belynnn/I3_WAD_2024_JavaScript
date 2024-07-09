@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+body{
+    padding: 1.25em;
+	background-color: rgb(0, 0, 0);
+	color: rgb(173, 255, 47);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+form{
+    margin: 1em 0;
+}
+
+form>div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+form button{
+    margin: 1em 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .25em .5em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    font-size: .6em;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+td {
+    font-size: .6em;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(54, 54, 54);
+}
+
+.present {
+    background-color: #005714;
+}
+
+.absent {
+    background-color: #5c020a;
+}

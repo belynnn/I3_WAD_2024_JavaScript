@@ -1,0 +1,49 @@
+#gameboard{
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 40px;
+    height: 40px;
+
+    /* positionne le carré en relative pour pouvoir travailler sur ses enfants */
+    position: relative;
+}
+
+.square svg{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+
+    position: relative;
+    z-index: -8888;
+}
+
+path{
+    position: relative;
+    z-index: -9999;
+}
+
+.piece{
+    position: relative;
+    z-index: 9999;
+}
+
+.beige{
+    background-color: rgb(243, 188, 120);
+}
+
+.brown{
+    background-color: rgb(134, 49, 28);
+}
+
+.black{
+    fill: black;
+}
+
+.white{
+    fill: white;
+}

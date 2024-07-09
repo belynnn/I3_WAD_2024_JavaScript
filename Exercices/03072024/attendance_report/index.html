@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Attendance report</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Attendance report</h1>
+        </header>
+
+        <main>
+            <form id="addStudentForm">
+                <div>
+                    <div>
+                        <label for="firstname">Prénom :</label>
+                        <input type="text" id="firstname" required>
+                    </div>
+    
+                    <div>
+                        <label for="lastname">Nom de famille :</label>
+                        <input type="text" id="lastname" required>
+                    </div>
+                </div>
+
+                <div>
+                    <button type="submit">Ajouter</button>
+                </div>
+            </form>
+        
+            <table id="attendanceTable">
+                <thead>
+                    <tr>
+                        <th>Prénom</th>
+                        <th>Nom de famille</th>
+                        <th>Présence</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Les étudiants seront ajoutés ici -->
+                </tbody>
+            </table>
+        
+            <button id="resetButton">Réinitialiser</button>
+        </main>
+
+        <footer>
+            <h2>Student Web Application Developer at <a href="https://interface3.be/fr" target="_blank" rel="noopener noreferrer">Interface3</a></h2>
+            <h3></h3>
+            <p>&copy; Made with 💚 by Deborah Clerckx</p>
+            <p></p>
+            <p>2024 - 2025</p>
+        </footer>
+    </body>
+</html>

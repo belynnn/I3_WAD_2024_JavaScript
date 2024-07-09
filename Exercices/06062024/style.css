@@ -1,0 +1,21 @@
+table{
+    border-collapse: collapse;
+    margin-top: 2em;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 12.5px;
+}
+
+
+.jaune{
+    background-color: yellow;
+    color: yellow;
+}
+
+.bleu{
+    background-color: blue;
+    color: blue;
+}

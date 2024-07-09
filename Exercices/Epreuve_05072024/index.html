@@ -1,0 +1,51 @@
+<!-- Deborah Clerckx WAD24 -->
+
+<!DOCTYPE html>
+<html lang="fr-be">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript - À la poursuite du nombre</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <script src="./assets/js/script.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>À la poursuite du nombre</h1>
+        </header>
+
+        <main id="guessNumberApp">
+            <section id="game">
+                <form id="guessForm">
+                    <label for="userGuess">Devinez un nombre entre 1 et 100</label>
+                    <input id="userGuess" type="text" name="userGuess">
+                    <button id="btnGuess" type="submit">Deviner</button>
+
+                    <div id="indications">
+                        <p id="message"></p>
+                        <button id="btnRefresh">Rejouer</button>
+                    </div>
+                </form>
+            </section>
+        
+            <section id="summary">
+                <p id="attempts">Nombre de tentatives restantes : <span id="remainingAttempts">10</span></p>
+
+                <div id="tableSummary">
+
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>JavaScript</p>
+            <p>Epreuve du vendredi 05 juin 2024</p>
+            <p>Web Application Developer</p>
+            <p>Interface3</p>
+            <p>2024 - 2025</p>
+            <p>Deborah Clerckx</p>
+        </footer>
+    </body>
+</html>
